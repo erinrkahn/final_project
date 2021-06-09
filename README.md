@@ -29,6 +29,10 @@ A shared repository for our final project_part one
 
 #### Communication Protocols
 
+1) Slack group chat will be used to share resources, ask questions and coordinate progress on deliverables.
+2) The 7-9 pm PST workblock will be used for group working sessions
+3) Main branch merge and weekly submissions will be coordinated by repository team member aligned with team established deadline.
+
 #### Individual Branches & Commits (4)
 
 ## Machine Learning Model
