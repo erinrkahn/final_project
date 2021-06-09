@@ -25,6 +25,10 @@ A shared repository for our final project_part one
 2) Would wine makers be able to predict if a particular year's crop will be destroyed due to fires even before the fires happen?
 3) What steps can wineries and wine makers take to protect their graps during a high fire danger season?
 
+#### Technology
+
+- See technology.md
+
 ## GitHub
 
 #### Communication Protocols
@@ -38,17 +42,22 @@ A shared repository for our final project_part one
 ## Machine Learning Model
 
 Provisional Machine Learning Model that stands in for the final machine learning model.
+- Takes in data from the provisional database
+- Outputs label(s) for input data
 
 #### Description & Explanation
 
-- Takes in data from the provisional database
-- Outputs label(s) for input data
+- Which model did you choose and why?
+- How are you training your model?
+- What is the model's accuracy?
+- How does this model work?
 
 ## Database
 
 Provisional database that stands in for the final database.
+- Sample data that mimics the expected final database structure or schema 
+- Draft machine learning model is connected to the provisional database
 
 #### Description & Explanation
 
-- Sample data that mimics the expected final database structure or schema 
-- Draft machine learning model is connected to the provisional database
+- Create a document describing the schema of the database (this can be a markdown document or an ERD).
