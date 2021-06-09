@@ -16,9 +16,14 @@ A shared repository for our final project_part one
 
 #### Description of their source of data
 
+- Kaggle data set: Wine quality and yield per season/year 
+- Rainfall trends, risk of fire
 
 #### Questions they hope to answer with the data
 
+1) Does prior yearly rainfall have an impact on the occurence/size/damage of wildfires in CA (particularly in Napa)?
+2) Would wine makers be able to predict if a particular year's crop will be destroyed due to fires even before the fires happen?
+3) What steps can wineries and wine makers take to protect their graps during a high fire danger season?
 
 ## GitHub
 
@@ -37,7 +42,9 @@ Provisional Machine Learning Model that stands in for the final machine learning
 
 ## Database
 
+Provisional database that stands in for the final database.
+
 #### Description & Explanation
 
-- Sample data that mimcs the expected final database structure or schema 
+- Sample data that mimics the expected final database structure or schema 
 - Draft machine learning model is connected to the provisional database
