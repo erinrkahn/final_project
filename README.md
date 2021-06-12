@@ -23,7 +23,7 @@ All datasets are from Kaggle
 
 **California Environmental Conditions Dataset**
 - The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
-- 
+
 #### Questions they hope to answer with the data
 
 1) What factors contribute to certain California fires becoming a major fire event? 
