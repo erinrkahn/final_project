@@ -42,7 +42,7 @@ A shared repository for our final project_part one
 ## Machine Learning Model
 
 ### Purpose:
-![Machine_Learning_Model]
+![Machine_Learning_Model](https://github.com/erinrkahn/project_one/blob/main/Images/Machine%20Learning%20Model%20Overview_Draft.png)
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) in our supervised machine learning model:
 #### Environmental Factors
 - Precipitation (in) in zip code
