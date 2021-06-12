@@ -90,7 +90,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 - **Which model did you choose and why?**
   - We chose a **supervised machine learning model** based on a **logistic regression model** because we want to predict whether a wildfire was a major wildfire or not.
 - **How are you training your model?**
-  - We are training our model on a **logistic regression model** because our output, y, is binary: major wildfire **or** not a major wildfire.
+  - We are training our model on a **logistic regression model** because our output, y, is binary: major wildfire **or** not a major wildfire. 75% of our data will be training data, while the other 25% of our data will be testing data.
 - **What is the model's accuracy?**
   - To be determined.
 - **How does this model work?**
