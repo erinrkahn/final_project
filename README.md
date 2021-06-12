@@ -43,7 +43,7 @@ A shared repository for our final project_part one
 
 ### Purpose:
 ![Machine_Learning_Model](https://github.com/erinrkahn/project_one/blob/main/Images/Machine%20Learning%20Model%20Overview_Draft.png)
-The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) in our supervised machine learning model:
+The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) in our supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
 - Precipitation (in) in zip code
 - Average vapor pressure (mBars) in zip code
@@ -83,14 +83,18 @@ Likewise, the amount of resources used to stop the fire such as the number of ai
 
 Finally, the year that the wildfire occurred will help in predicting whether the wildfire became a major wildfire incident or not as the factors that contribute to wildfire risk like environmental factors may change over time to increase or decrease the likelihood of major wildfire incidents.
 
-Ultimately, knowing these factors will give insight as to which California (CA) zip codes are more at risk of suffering from major wildfires and will guide future decisions as to allocate more resources to zip codes where the likelihood of major wildfire risk is high.
+Ultimately, knowing these factors will give insight as to which California (CA) zip codes are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to zip codes where the likelihood of major wildfire risk is high.
 
-#### Description & Explanation
+### Description & Explanation of Model
 
-- Which model did you choose and why?
-- How are you training your model?
-- What is the model's accuracy?
-- How does this model work?
+- **Which model did you choose and why?**
+  - We chose a **supervised machine learning model** based on a **logistic regression model** because we want to predict whether a wildfire was a major wildfire or not.
+- **How are you training your model?**
+  - We are training our model on a **logistic regression model** because our output, y, is binary: major wildfire **or** not a major wildfire.
+- **What is the model's accuracy?**
+  - To be determined.
+- **How does this model work?**
+  - This supervised machine learning model will be built as a deep learning neural network because a deep learning neural network will learn and figure out relationships between the various variables. Likewise, it will be able to determine which input features are more significant in determining whether a wildfire becomes a major wildfire or not.
 
 ## Database
 
