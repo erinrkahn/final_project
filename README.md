@@ -41,9 +41,8 @@ A shared repository for our final project_part one
 
 ## Machine Learning Model
 
-Provisional Machine Learning Model that stands in for the final machine learning model.
-- Takes in data from the provisional database
-- Outputs label(s) for input data
+### Purpose:
+The purpose of this analysis is to find which factors contribute to major risk wildfires and which factors are important in decreasing the risk of a wildfire becoming a major risk. Knowing these factors will give insight as to which California (CA) zip codes are more at risk of suffering from major wildfires and will guide future decisions as to allocate more resources to zip codes where the likelihood of major wildfire risk is high.
 
 #### Description & Explanation
 
