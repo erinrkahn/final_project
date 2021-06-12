@@ -85,7 +85,7 @@ Finally, the year that the wildfire occurred will help in predicting whether the
 
 Ultimately, knowing these factors will give insight as to which California (CA) zip codes are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to zip codes where the likelihood of major wildfire risk is high.
 
-### Description & Explanation of Model
+### Description & Explanation of Model:
 
 - **Which model did you choose and why?**
   - We chose a **supervised machine learning model** based on a **logistic regression model** because we want to predict whether a wildfire was a major wildfire or not.
