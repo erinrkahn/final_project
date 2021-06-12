@@ -5,29 +5,33 @@ A shared repository for our final project_part one
 
 #### Selected Topic 
 
-- Impacts on birth rate? 
-- Impact of past yearly rainfall on fire risk in the Napa Valley? What implications does this have for wine production in the area? 
+We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
 
 #### Reason why they selected topic
 
- - Current decline in US population (birth rate )?
- - Current California drought and extreme fire season risk?
-
+California has recently had some of the most deadly and destructive fire seasons. With the state entering an extreme drought, the 2021 fire season is expected to be very high risk. With this analysis, main contributing factors will be identified and resources can be allocated to decrease the risk of major wildfire events in California regions. 
 
 #### Description of their source of data
 
-- Kaggle data set: Wine quality and yield per season/year 
-- Rainfall trends, risk of fire
+All datasets are from Kaggle 
 
+**California Wildfires (2013-2020)**
+- The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event.  
+
+**California Housing Data**
+- The California housing data include location, population size of the block, house value and median income.
+
+**California Environmental Conditions Dataset**
+- The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
+- 
 #### Questions they hope to answer with the data
 
-1) Does prior yearly rainfall have an impact on the occurence/size/damage of wildfires in CA (particularly in Napa)?
-2) Would wine makers be able to predict if a particular year's crop will be destroyed due to fires even before the fires happen?
-3) What steps can wineries and wine makers take to protect their graps during a high fire danger season?
+1) What factors contribute to certain California fires becoming a major fire event? 
+2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
 
-#### Technology
+#### Technologies
 
-- See technology.md
+UPDATE
 
 ## GitHub
 
