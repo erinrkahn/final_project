@@ -41,7 +41,7 @@ All datasets are from Kaggle
 <br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the liklihood of a major event or not based on our variables is an important part of answering the question we are trying to solve.
 
 **Data Storage**
-<br>In addition to the machine learning models, our database can be stored in MongoDB or PostGreSQL.  
+<br>In addition to the machine learning models, our database can be stored in MongoDB for easy access. The applicable Pymongo library may also be used to integrate our database into our models.   
 
 **Dashboard Analysis**
 <br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
