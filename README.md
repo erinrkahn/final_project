@@ -114,10 +114,8 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 
 ## Database
 
-Provisional database that stands in for the final database.
-- Sample data that mimics the expected final database structure or schema 
-- Draft machine learning model is connected to the provisional database
+Below is an ERD that shows the provisional database that will turn into our final database. There are six databases featured in the ERD. Five of these represent cleaned up versions of our Kaggle Datasets. Important to note, most of the datasets do not feature the data point that will be used as our primary key: ZIP codes. Part of our initial data clean up process will be to convert the latitude and longitude data provided in each data source into a corresponding ZIP code. All other information will be pulled from the data sources from Kaggle and cleaned accordingly. For example, in the "CA Region by Zip" table, once we have determined the ZIP code from the latitude and longitude we will group the "Ocean Proximity" labels by the ZIP code associated.
 
-#### Description & Explanation
+The "Major Fire Risk by ZIP Code" database will be the data we receive from our machine learning model. The model would predict whether a wildfire was a major wildfire or not and group the results by the ZIP code it predicted for to give us an little more insight on which areas of the state would benefit from close monitorization and additional/modified resources to avoid a wildfire from becoming a major incendent.
 
-- Create a document describing the schema of the database (this can be a markdown document or an ERD).
+![Schema_Draft](images/schema_draft.png)
