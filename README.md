@@ -3,6 +3,8 @@ A shared repository for our final project_part one
 
 ## Presentation
 
+![Presenting_Image](https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg)
+
 #### Selected Topic 
 
 We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
