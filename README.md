@@ -38,7 +38,7 @@ All datasets are from Kaggle
 <br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense on the individual variables being used, to spot outliers and determine significance in some of the data. 
 
 **Binary Classification**
-<br>With the likelihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the liklihood of a major event or not based on our variables is an important part of answering the question we are trying to solve. For this project, we will use TensorFlow, a Python library, to create a deep learning neural network based on a logistic regression model to determine whether a wildfire is a major wildfire or not.
+<br>With the likelihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the likelihood of a major event or not based on our variables is an important part of answering the question we are trying to solve. For this project, we will use TensorFlow, a Python library, to create a deep learning neural network based on a logistic regression model to determine whether a wildfire is a major wildfire or not.
 
 **Data Storage**
 <br>In addition to the machine learning models, our database can be stored in MongoDB for easy access. The applicable Pymongo library may also be used to integrate our database into our models.   
@@ -99,7 +99,7 @@ Likewise, the amount of resources used to stop the fire such as the number of ai
 
 Finally, the year that the wildfire occurred will help in predicting whether the wildfire became a major wildfire incident or not as the factors that contribute to wildfire risk like environmental factors may change over time to increase or decrease the likelihood of major wildfire incidents.
 
-Ultimately, knowing these factors will give insight as to which California (CA) zip codes are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to zip codes where the likelihood of major wildfire risk is high.
+Ultimately, knowing these factors will give insight as to which California (CA) ZIP codes are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to ZIP codes where the likelihood of major wildfire risk is high.
 
 ### Description & Explanation of Model:
 
