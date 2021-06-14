@@ -29,9 +29,24 @@ All datasets are from Kaggle
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
 
-#### Technologies
+### Technologies Used
 
-UPDATE
+**Code and Workbooks**
+<br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
+
+**Initial Data Cleaning**
+<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense on the individual variables being used, to spot outliers and determine significance in some of the data. 
+
+**Binary Classification**
+<br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the liklihood of a major event or not based on our variables is an important part of answering the question we are trying to solve.
+
+**Data Storage**
+<br>In addition to the machine learning models, our database can be stored in MongoDB for easy access. The applicable Pymongo library may also be used to integrate our database into our models.   
+
+**Dashboard Analysis**
+<br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
+
+
 
 ## GitHub
 
@@ -40,8 +55,6 @@ UPDATE
 1) Slack group chat will be used to share resources, ask questions and coordinate progress on deliverables.
 2) The 7-9 pm PST workblock will be used for group working sessions
 3) Main branch merge and weekly submissions will be coordinated by repository team member aligned with team established deadline.
-
-#### Individual Branches & Commits (4)
 
 ## Machine Learning Model
 
