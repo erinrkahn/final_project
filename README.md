@@ -63,20 +63,20 @@ All datasets are from Kaggle
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) in our supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
 - Precipitation (in) in zip code
-- Average vapor pressure (mBars) in zip code
-- Maximum air temperature (F) in zip code
-- Maximum relative humidity (%) in zip code
-- Average wind speed (mph) in zip code
-- Average soil temperature (F) in zip code
+- Average vapor pressure (mBars) in ZIP code
+- Maximum air temperature (F) in ZIP code
+- Maximum relative humidity (%) in ZIP code
+- Average wind speed (mph) in ZIP code
+- Average soil temperature (F) in ZIP code
 #### Region
 - The zip codes in which wildfires started and occurred
-- The proximity of that zip code to the ocean
+- The proximity of that ZIP code to the ocean
 #### Demographics
-- Population of zip code
-- Median income of zip code
-- Median house value of zip code
+- Population of ZIP code
+- Median income of ZIP code
+- Median house value of ZIP code
 #### Electricity
-- Electricity consumption per zip code
+- Electricity consumption per ZIP code
 #### Amount of Resources Allocated to Stop Fire
 - Number of Air Tankers
 - Number of Cal Fire Incidents
@@ -89,11 +89,11 @@ The purpose of this analysis is to analyze which factors from previous Californi
 
 Historically, high wind speed and dry heat contribute to the ignition and exacerbation of wildfires in CA. Therefore, inputting these environmental factors along with others into our supervised machine learning model will help predict whether a wildfire becomes a major wildfire or not.
 
-Additionally, inputting zip codes where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these zip codes to the ocean will aid in this prediction as wildfires are typically inland.
+Additionally, inputting zip codes where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these ZIP codes to the ocean will aid in this prediction as wildfires are typically inland.
 
-Demographics of a region may also help in predicting wildfire outcomes such as the population of a zip code, median income of a zip code, and the median house value of a zip code.
+Demographics of a region may also help in predicting wildfire outcomes such as the population of a ZIP code, median income of a ZIP code, and the median house value of a ZIP code.
 
-Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per zip code.
+Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per ZIP code.
 
 Likewise, the amount of resources used to stop the fire such as the number of air tankers deployed and number of water tenders utilized will help predict whether the wildfire became a major wildfire or not.
 
