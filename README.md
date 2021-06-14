@@ -93,7 +93,7 @@ The purpose of this analysis is to analyze which factors from previous Californi
 
 Historically, high wind speed and dry heat contribute to the ignition and exacerbation of wildfires in CA. Therefore, inputting these environmental factors along with others into our supervised machine learning model will help predict whether a wildfire becomes a major wildfire or not.
 
-Additionally, inputting zip codes where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these ZIP codes to the ocean will aid in this prediction as wildfires are typically inland.
+Additionally, inputting ZIP codes where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these ZIP codes to the ocean will aid in this prediction as wildfires are typically inland.
 
 Demographics of a region may also help in predicting wildfire outcomes such as the population of a ZIP code, median income of a ZIP code, and the median house value of a ZIP code.
 
