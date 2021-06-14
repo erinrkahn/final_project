@@ -35,13 +35,13 @@ All datasets are from Kaggle
 <br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
 
 **Initial Data Cleaning**
-<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning visualizations, Matplotlib may be required to gain a better sense on the individual variables being used, to spot outliers and find less significant data. 
+<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense on the individual variables being used, to spot outliers and determine significance in some of the data. 
 
 **Binary Classification**
-<br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. 
+<br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the liklihood of a major event or not based on our variables is an important part of answering the question we are trying to solve.
 
 **Data Storage**
-<br>In addition to the machine learning models, our database can be stored in MongoDB. To access the data
+<br>In addition to the machine learning models, our database can be stored in MongoDB or PostGreSQL.  
 
 **Dashboard Analysis**
 <br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
