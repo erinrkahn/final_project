@@ -64,7 +64,7 @@ All datasets are from Kaggle
 
 ### Purpose:
 ![Machine_Learning_Model](https://github.com/erinrkahn/project_one/blob/main/Images/Machine%20Learning%20Model%20Overview_Draft_3.png)
-The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) in our supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
+The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) taken from the provisional database that we created and input them into a supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
 - Precipitation (in) in ZIP code
 - Average vapor pressure (mBars) in ZIP code
