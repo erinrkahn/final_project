@@ -73,7 +73,7 @@ The purpose of this analysis is to analyze which factors from previous Californi
 - Average wind speed (mph) in ZIP code
 - Average soil temperature (F) in ZIP code
 #### Region
-- The zip codes in which wildfires started and occurred
+- The ZIP codes in which wildfires started and occurred
 - The proximity of that ZIP code to the ocean
 #### Demographics
 - Population of ZIP code
