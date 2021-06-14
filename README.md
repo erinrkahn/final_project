@@ -29,20 +29,24 @@ All datasets are from Kaggle
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
 
-#### Technologies Used
+### Technologies Used
 
-**Tools for Initial Data Cleaning**
-<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any visualizations, Matplotlib may be required to gain a better sense on the individual variables being used, to spot outliers and find less significant data. 
+**Code and Workbooks**
+<br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
 
-**Tools for Binary Classification**
-<br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this.   
-Examples of technology that could be used 
+**Initial Data Cleaning**
+<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning visualizations, Matplotlib may be required to gain a better sense on the individual variables being used, to spot outliers and find less significant data. 
 
-**Tools for Data Storage**
-<br>
+**Binary Classification**
+<br>With the liklihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. 
 
-**Tools for Dashboard Analysis**
-<br>Visualization tools such as Tableau will be of great use for our analysis. 
+**Data Storage**
+<br>In addition to the machine learning models, our database can be stored in MongoDB. To access the data
+
+**Dashboard Analysis**
+<br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
+
+
 
 ## GitHub
 
