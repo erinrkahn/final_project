@@ -1,7 +1,9 @@
-# Final Project - Part One
-A shared repository for our final project_part one
+# Final Project - Group 4
+A shared repository for our final project
 
 ## Presentation
+
+Presentation slides - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit?usp=sharing)
 
 #### Selected Topic 
 
@@ -23,11 +25,39 @@ All datasets are from Kaggle
 
 **California Environmental Conditions Dataset**
 - The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
-- 
+
+**California - Electricity Consumption by County Dataset**
+- Historical energy cosumption data by county. 
+
 #### Questions they hope to answer with the data
 
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
+
+#### Description of the data exploration phase of the project
+
+- We began with the California Wildfires (2013-2020) dataset
+  - Identify columns of interest 
+  - Drop columns 
+  - Missing data, Resources columns (personnel units, airtankers, enginges, etc.) inaccurate and inconsistent, cross referencing CalFire website
+  - Decision to drop columns with missing data 
+
+- California Housing Dataset
+  - dropped columns (Housing_median_age, total_rooms, total_bedrooms)
+
+- California Environmental Conditions Dataset
+  - dropped columns (target, region)
+
+- California - Electricity Consumtion by County Dataset
+  - dropped columns (non-residential, residential)
+
+Boxplot to view column outliers 
+
+#### Description of the analysis phase of the project
+
+Boxplot outliers
+database tables
+Initial machine learning 
 
 #### Technologies
 
