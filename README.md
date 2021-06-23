@@ -95,3 +95,13 @@ Provisional database that stands in for the final database.
 #### Description & Explanation
 
 - Create a document describing the schema of the database (this can be a markdown document or an ERD).
+
+## Dashboard
+
+Dashboard Storyboard - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit#slide=id.ge0f4930212_0_52)
+
+Description of the tool(s) that will be used to create the final dashboard
+- Tableau
+
+Description of interactive element(s)
+- Map (counties, fires (location & acres burned), housing, electricity consumption)
