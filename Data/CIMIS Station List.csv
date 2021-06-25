@@ -1,0 +1,265 @@
+Station Id,Name,County,Status
+1,Fresno/F.S.U. USDA,Fresno,Inactive
+2,FivePoints,Fresno,Active
+3,Beach /Santa Cruz CO,Santa Cruz,Inactive
+4,Webb /Santa Cruz CO,Santa Cruz,Inactive
+5,Shafter,Kern,Active
+6,Davis,Yolo,Active
+7,Firebaugh/Telles,Fresno,Active
+8,Gerber,Tehama,Inactive
+9,Lamont,Kern,Inactive
+10,Bakersfield/Greenlee,Kern,Inactive
+11,Bakersfield/Bonanza,Kern,Inactive
+12,Durham,Butte,Active
+13,Camino,El Dorado,Active
+14,Orland,Glenn,Inactive
+15,Stratford,Kings,Active
+16,San Juan,Monterey,Inactive
+17,El Centro,Imperial,Inactive
+18,Westmorland,Imperial,Inactive
+19,Castroville,Monterey,Inactive
+20,Corcoran,Kings,Inactive
+21,Kettleman,Kings,Inactive
+22,Caruthers,Kings,Inactive
+23,King City,Monterey,Inactive
+24,Thermal,Riverside,Inactive
+25,Rancho Mirage,Riverside,Inactive
+26,Lost Hills,Kern,Inactive
+27,Zamora,Yolo,Inactive
+28,Soledad,Monterey,Inactive
+29,Cantua Creek,Fresno,Inactive
+30,Nicolaus,Sutter,Inactive
+31,McFarland/Kern Farms,Kern,Inactive
+32,Colusa,Colusa,Inactive
+33,Visalia,Tulare,Inactive
+34,Rancho California,Riverside,Inactive
+35,Bishop,Inyo,Active
+36,Blythe,Riverside,Inactive
+37,USDA Salinas,Monterey,Inactive
+38,Santa Maria,Santa Barbara,Inactive
+39,Parlier,Fresno,Active
+40,Mendota/MuriettaUSDA,Fresno,Inactive
+41,Calipatria/Mulberry,Imperial,Active
+42,Lodi,San Joaquin,Inactive
+43,McArthur,Shasta,Active
+44,U.C. Riverside,Riverside,Active
+45,San Diego,San Diego,Inactive
+46,MacDoel,Siskiyou,Inactive
+47,Brentwood,Contra Costa,Active
+48,Tulelake,Siskiyou,Inactive
+49,Oceanside,San Diego,Inactive
+50,Thermal,Riverside,Inactive
+51,Healdsburg,Sonoma,Inactive
+52,San Luis Obispo,San Luis Obispo,Active
+53,Greenfield,Monterey,Inactive
+54,Blackwells Corner,Kern,Active
+55,Palm Desert,Riverside,Inactive
+56,Los Banos,Merced,Active
+57,Buntingville,Lassen,Inactive
+58,Santa Paula,Ventura,Inactive
+59,Tehachapi,Kern,Inactive
+60,Barstow,San Bernardino,Inactive
+61,Orland,Glenn,Inactive
+62,Temecula,Riverside,Active
+63,Novato,Marin,Inactive
+64,Santa Ynez,Santa Barbara,Active
+65,Walnut Creek,Contra Costa,Inactive
+66,San Diego,San Diego,Inactive
+67,Goleta,Santa Barbara,Inactive
+68,Seeley,Imperial,Active
+69,San Jose,Santa Clara,Inactive
+70,Manteca,San Joaquin,Active
+71,Modesto,Stanislaus,Active
+72,Palo Verde,Imperial,Inactive
+73,Hollywood Hills,Los Angeles,Inactive
+74,Escondido,San Diego,Inactive
+75,Irvine,Orange,Active
+76,Betteravia,Santa Barbara,Inactive
+77,Oakville,Napa,Active
+78,Pomona,Los Angeles,Active
+79,Angwin,Napa,Inactive
+80,Fresno State,Fresno,Active
+81,Shenandoah Valley,Amador,Inactive
+82,Claremont,Los Angeles,Inactive
+83,Santa Rosa,Sonoma,Active
+84,Browns Valley,Yuba,Active
+85,Hopland FS,Mendocino,Inactive
+86,Lindcove,Tulare,Inactive
+87,Meloland,Imperial,Active
+88,Cuyama,Santa Barbara,Active
+89,Salinas South,Monterey,Inactive
+90,Alturas,Modoc,Active
+91,Tulelake FS,Siskiyou,Active
+92,Kesterson,Merced,Active
+93,Lamont,Kern,Inactive
+94,Goleta Foothills,Santa Barbara,Inactive
+95,Watsonville,Santa Cruz,Inactive
+96,Woodside,San Mateo,Inactive
+97,Port Hueneme,Ventura,Inactive
+98,Ramona,San Diego,Inactive
+99,Santa Monica,Los Angeles,Active
+100,Fremont,Alameda,Inactive
+101,Piru,Ventura,Inactive
+102,El Dorado,Los Angeles,Inactive
+103,Windsor,Sonoma,Active
+104,De Laveaga,Santa Cruz,Active
+105,Westlands,Fresno,Active
+106,Sanel Valley,Mendocino,Active
+107,Santa Barbara,Santa Barbara,Active
+108,Gerber Dryland,Tehama,Inactive
+109,Carneros,Napa,Active
+110,Newberry Springs,San Bernardino,Inactive
+111,Green Valley Road,Santa Cruz,Inactive
+112,San Ardo,Monterey,Inactive
+113,King City-Oasis Rd.,Monterey,Active
+114,Arroyo Seco,Monterey,Active
+115,Gonzales,Monterey,Inactive
+116,Salinas North,Monterey,Active
+117,Victorville,San Bernardino,Active
+118,Cathedral City,Riverside,Inactive
+119,Putah Creek,Solano,Inactive
+120,Guadalupe,Santa Barbara,Inactive
+121,Dixon,Solano,Active
+122,Hastings Tract,Solano,Inactive
+123,Suisun Valley,Solano,Inactive
+124,Panoche,Fresno,Active
+125,Arvin-Edison,Kern,Active
+126,San Benito,San Benito,Active
+127,Salton Sea West,Imperial,Inactive
+128,Salton Sea East,Imperial,Inactive
+129,Pajaro,Monterey,Active
+130,Temecula East,Riverside,Inactive
+131,Fair Oaks,Sacramento,Active
+132,Morgan Hill,Santa Clara,Inactive
+133,Glendale,Los Angeles,Inactive
+134,Barstow NE,San Bernardino,Inactive
+135,Blythe NE,Riverside,Active
+136,Oasis,Riverside,Active
+137,Temecula East II,Riverside,Inactive
+138,Famoso,Kern,Inactive
+139,Winters,Solano,Active
+140,Twitchell Island,Sacramento,Active
+141,Mecca,Riverside,Inactive
+142,Orange Cove,Fresno,Active
+143,San Juan Valley,San Benito,Active
+144,Petaluma East,Sonoma,Active
+145,Madera,Madera,Inactive
+146,Belridge,Kern,Active
+147,Otay Lake,San Diego,Active
+148,Merced,Merced,Active
+149,Oakland Foothills,Alameda,Inactive
+150,Miramar,San Diego,Active
+151,Ripley,Riverside,Active
+152,Camarillo,Ventura,Active
+153,Escondido SPV,San Diego,Active
+154,Salton Sea North,Riverside,Inactive
+155,Bryte (experimental),Yolo,Active
+156,Oxnard,Ventura,Inactive
+157,Point San Pedro,Marin,Active
+158,Bennett Valley,Sonoma,Active
+159,Monrovia,Los Angeles,Active
+160,San Luis Obispo West,San Luis Obispo,Active
+161,Patterson,Stanislaus,Inactive
+162,Indio,Riverside,Inactive
+163,Atascadero,San Luis Obispo,Active
+164,Valley of the Moon,Sonoma,Inactive
+165,Sisquoc,Santa Barbara,Active
+166,Lodi West,San Joaquin,Inactive
+167,Tracy,San Joaquin,Inactive
+168,Denair,Stanislaus,Inactive
+169,Porterville,Tulare,Active
+170,Concord,Contra Costa,Active
+171,Union City,Alameda,Active
+172,Lost Hills NW,Kern,Inactive
+173,Torrey Pines,San Diego,Active
+174,Long Beach,Los Angeles,Active
+175,Palo Verde II,Imperial,Active
+176,La Quinta,Riverside,Inactive
+177,Watsonville West,Santa Cruz,Inactive
+178,Moraga,Contra Costa,Active
+179,Winchester,Riverside,Active
+180,Westmorland West,Imperial,Inactive
+181,Westmorland North,Imperial,Active
+182,Delano,Tulare,Active
+183,Owens Lake North,Inyo,Active
+184,San Diego II,San Diego,Active
+185,UC-Mex,Imperial,Inactive
+186,UC-San Luis,Imperial,Inactive
+187,Black Point,Marin,Active
+188,Madera II,Madera,Inactive
+189,Owens Lake South,Inyo,Active
+190,Five Points South West,Fresno,Inactive
+191,Pleasanton,Alameda,Active
+192,Lake Arrowhead,San Bernardino,Active
+193,Pacific Grove,Monterey,Active
+194,Oakdale,Stanislaus,Active
+195,Auburn,Placer,Active
+196,Esparto,Yolo,Inactive
+197,Palmdale,Los Angeles,Active
+198,Santa Paula,Ventura,Active
+199,Big Bear Lake,San Bernardino,Active
+200,Indio 2,Riverside,Active
+201,UC-Andrade,Imperial,Inactive
+202,Nipomo,San Luis Obispo,Active
+203,Alpaugh,Tulare,Inactive
+204,Santa Clarita,Los Angeles,Active
+205,Coalinga,Fresno,Active
+206,Denair II,Stanislaus,Active
+207,Borrego Springs,San Diego,Active
+208,La Quinta II,Riverside,Active
+209,Watsonville West II,Santa Cruz,Active
+210,Carmel,Monterey,Active
+211,Gilroy,Santa Clara,Active
+212,Hastings Tract East,Solano,Active
+213,El Cerrito,Contra Costa,Active
+214,Salinas South II,Monterey,Active
+215,Chatsworth,Los Angeles,Active
+216,Arleta,Los Angeles,Active
+217,Moorpark,Ventura,Active
+218,Thermal South,Riverside,Active
+219,West Hills,Los Angeles,Active
+220,Palmdale Central,Los Angeles,Active
+221,Cadiz Valley,San Bernardino,Active
+222,Gerber South,Tehama,Active
+223,North Hollywood,Los Angeles,Active
+224,Shasta College,Shasta,Active
+225,Scott Valley,Siskiyou,Active
+226,Woodland,Yolo,Active
+227,Plymouth,Amador,Active
+228,Diamond Springs,El Dorado,Active
+229,Laguna Seca,Monterey,Active
+230,Santa Barbara II,Santa Barbara,Inactive
+231,Lompoc,Santa Barbara,Active
+232,Santa Maria II,Santa Barbara,Active
+233,Joshua Tree,San Bernardino,Active
+234,Newberry Springs II,San Bernardino,Inactive
+235,Verona,Sutter,Active
+236,Macdoel II,Siskiyou,Active
+237,Temecula East III,Riverside,Active
+238,Moreno Valley,Riverside,Inactive
+239,Hemet,Riverside,Active
+240,Perris - Menifee,Riverside,Active
+241,San Clemente,Orange,Active
+242,Staten Island,San Joaquin,Active
+243,Ryde,Sacramento,Active
+244,Biggs,Butte,Active
+245,Coto de Caza,Orange,Active
+246,Markleeville,Alpine,Active
+247,Jersey Island,Contra Costa,Active
+248,Holt,San Joaquin,Active
+249,Ripon,San Joaquin,Active
+250,Williams,Colusa,Active
+251,Highland,San Bernardino,Active
+252,Soledad II,Monterey,Active
+253,Pescadero,San Mateo,Active
+254,Oakland Metro,Alameda,Active
+255,Chino,San Bernardino,Inactive
+256,Lancaster,Los Angeles,Active
+257,Ridgecrest,Kern,Active
+258,Lemon Cove,Tulare,Active
+259,Ferndale Plain,Humboldt,Active
+260,Montague,Siskiyou,Active
+261,Gazelle,Siskiyou,Active
+262,Linden,San Joaquin,Active
+263,Smith River,Del Norte,Active
+264,Sierra Valley Center,Plumas,Active
