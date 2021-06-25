@@ -3,6 +3,10 @@ A shared repository for our final project
 
 ## Presentation
 
+<p align="center">
+<img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
+</p>
+
 Presentation slides - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit?usp=sharing)
 
 #### Selected Topic 
