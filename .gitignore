@@ -1,3 +1,13 @@
+# Ignore these Jupyter Notebooks
+Data_Cleaning/Further_Cleanup_on_All_Datasets (Just in Case Copy).ipynb
+Reverse Geocoding Example.ipynb
+
+# Ignore these CSVs
+ElectricityByCounty CALIFORNIA Usage in Millions of kWh.csv
+housing.csv
+California_Fire_Incidents.csv
+all_conditions.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
