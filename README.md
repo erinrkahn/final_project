@@ -31,19 +31,22 @@ All datasets are from Kaggle
 - The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
 
 **California - Electricity Consumption by County Dataset**
-- Historical energy cosumption data by county. 
+- Historical energy consumption data by county. 
 
 #### Questions they hope to answer with the data
 
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
+3) How does proximity to major fire events impact housing prices over time?
+4) Is there a relationship between number of fires (or acres burned) and energy consumption? 
+5) What weather patterns increase the risk for a major fire event?
 
 #### Description of the data exploration phase of the project
 
 - We began with the California Wildfires (2013-2020) dataset
   - Identify columns of interest 
   - Drop columns 
-  - Missing data, Resources columns (personnel units, airtankers, enginges, etc.) inaccurate and inconsistent, cross referencing CalFire website
+  - Missing data, Resources columns (personnel units, air-tankers, engines, etc.) inaccurate and inconsistent, cross referencing CalFire website
   - Decision to drop columns with missing data 
 
 - California Housing Dataset
@@ -52,18 +55,20 @@ All datasets are from Kaggle
 - California Environmental Conditions Dataset
   - dropped columns (target, region)
 
-- California - Electricity Consumtion by County Dataset
+- California - Electricity Consumption by County Dataset
   - dropped columns (non-residential, residential)
 
-Boxplot to view column outliers 
+- Utilize Boxplot to view column outliers 
+- Convert data types 
+- Duplicate weather condition data for counties not represented by using county data from similar climate zones. 
 
 #### Description of the analysis phase of the project
 
-Boxplot outliers
-database tables
-Initial machine learning 
+During the analysis phase, we focused on:
+- Creating a Boxplot to identify outliers
+- Creating our database tables 
+- Our initial approach to our machine learning model
 
-#### Technologies
 ### Technologies Used
 
 **Code and Workbooks**
@@ -170,7 +175,7 @@ The "Major Fire Risk by ZIP Code" database will be the data we receive from our 
 Dashboard Storyboard - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit#slide=id.ge0f4930212_0_52)
 
 Description of the tool(s) that will be used to create the final dashboard
-- Tableau
+- Tableau will be used to create our dashboard
 
 Description of interactive element(s)
 - Map (counties, fires (location & acres burned), housing, electricity consumption)
