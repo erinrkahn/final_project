@@ -1,4 +1,4 @@
-# Ignore
+# Ignore: do NOT want this file public for hackers
 .DS_Store
 
 # Ignore these Jupyter Notebooks
