@@ -1,5 +1,5 @@
-# Final Project - Part One
-A shared repository for our final project_part one
+# Final Project - Group 4
+A shared repository for our final project
 
 ## Presentation
 
@@ -7,7 +7,9 @@ A shared repository for our final project_part one
 <img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
 </p>
 
-### Selected Topic 
+Presentation slides - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit?usp=sharing)
+
+#### Selected Topic 
 
 We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
 
@@ -28,10 +30,44 @@ All datasets are from Kaggle
 **California Environmental Conditions Dataset**
 - The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
 
-### Questions they hope to answer with the data
+**California - Electricity Consumption by County Dataset**
+- Historical energy consumption data by county. 
+
+#### Questions they hope to answer with the data
 
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
+3) How does proximity to major fire events impact housing prices over time?
+4) Is there a relationship between number of fires (or acres burned) and energy consumption? 
+5) What weather patterns increase the risk for a major fire event?
+
+#### Description of the data exploration phase of the project
+
+- We began with the California Wildfires (2013-2020) dataset
+  - Identify columns of interest 
+  - Drop columns 
+  - Missing data, Resources columns (personnel units, air-tankers, engines, etc.) inaccurate and inconsistent, cross referencing CalFire website
+  - Decision to drop columns with missing data 
+
+- California Housing Dataset
+  - dropped columns (Housing_median_age, total_rooms, total_bedrooms)
+
+- California Environmental Conditions Dataset
+  - dropped columns (target, region)
+
+- California - Electricity Consumption by County Dataset
+  - dropped columns (non-residential, residential)
+
+- Utilize Boxplot to view column outliers 
+- Convert data types 
+- Duplicate weather condition data for counties not represented by using county data from similar climate zones. 
+
+#### Description of the analysis phase of the project
+
+During the analysis phase, we focused on:
+- Creating a Boxplot to identify outliers
+- Creating our database tables 
+- Our initial approach to our machine learning model
 
 ### Technologies Used
 
@@ -116,6 +152,16 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 - **How does this model work?**
   - This supervised machine learning model will be built as a deep learning neural network because a deep learning neural network will learn and figure out relationships between the various variables. Likewise, it will be able to determine which input features are more significant in determining whether a wildfire becomes a major wildfire or not.
 
+### Code for Machine Learning Model
+
+- **Description of preliminary data preprocessing**
+
+- **Description of preliminary feature engineering and preliminary feature selection, including the decision-making process**
+
+- **Description of how data was split into training and testing sets**
+
+- **Explanation of model choice, including limitations and benefits**
+
 ## Database
 
 Below is an ERD that shows the provisional database that will turn into our final database. There are six databases featured in the ERD. Five of these represent cleaned-up versions of our Kaggle Datasets. Important to note, most of the datasets do not feature the data that will be our primary key: ZIP codes. Part of our initial data clean-up process will be to convert the latitude and longitude data provided in each data source into a corresponding ZIP code. All other information will be pulled from the data sources from Kaggle and cleaned accordingly. For example, in the "CA Region by Zip" table, once we have determined the ZIP code from the latitude and longitude, we will group the "Ocean Proximity" labels by the ZIP code associated with it.
@@ -123,3 +169,14 @@ Below is an ERD that shows the provisional database that will turn into our fina
 The "Major Fire Risk by ZIP Code" database will be the data we receive from our machine learning model. The model would predict whether a wildfire was at risk of becoming a major wildfire incident or not and group the results by the ZIP code it predicted. This prediction will give us more insight on which areas of the state would benefit from close monitoring and additional/modified resources to avoid a wildfire from becoming a major incident.
 
 ![Schema_Draft](Images/schema_draft.png)
+
+## Dashboard
+
+Dashboard Storyboard - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit#slide=id.ge0f4930212_0_52)
+
+Description of the tool(s) that will be used to create the final dashboard
+- Tableau will be used to create our dashboard
+
+Description of interactive element(s)
+- Map (counties, fires (location & acres burned), housing, electricity consumption)
+
