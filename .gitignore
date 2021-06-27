@@ -1,5 +1,6 @@
 # Ignore: do NOT want this file public for hackers
 .DS_Store
+config.py
 
 # Ignore these Jupyter Notebooks
 Data_Cleaning/Double_Checking_Final_Cleaned_Data.ipynb

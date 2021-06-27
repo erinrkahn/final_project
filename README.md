@@ -102,21 +102,21 @@ During the analysis phase, we focused on:
 ![Machine_Learning_Model](https://github.com/erinrkahn/project_one/blob/main/Images/Machine%20Learning%20Model%20Overview_Draft_3.png)
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) taken from the provisional database that we created and input them into a supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
-- Precipitation (in) in ZIP code
-- Average vapor pressure (mBars) in ZIP code
-- Maximum air temperature (F) in ZIP code
-- Maximum relative humidity (%) in ZIP code
-- Average wind speed (mph) in ZIP code
-- Average soil temperature (F) in ZIP code
+- Precipitation (in) in County
+- Average vapor pressure (mBars) in County
+- Maximum air temperature (F) in County
+- Maximum relative humidity (%) in County
+- Average wind speed (mph) in County
+- Average soil temperature (F) in County
 #### Region
-- The ZIP codes in which wildfires started and occurred
-- The proximity of that ZIP code to the ocean
+- The County in which wildfires started and occurred
+- The proximity of that County to the ocean
 #### Demographics
-- Population of ZIP code
-- Median income of ZIP code
-- Median house value of ZIP code
+- Population of County
+- Median income of County
+- Median house value of County
 #### Electricity
-- Electricity consumption per ZIP code
+- Electricity consumption per County
 #### Amount of Resources Allocated to Stop Fire
 - Number of Air Tankers
 - Number of Cal Fire Incidents
@@ -129,24 +129,24 @@ The purpose of this analysis is to analyze which factors from previous Californi
 
 Historically, high wind speed and dry heat contribute to the ignition and exacerbation of wildfires in CA. Therefore, inputting these environmental factors along with others into our supervised machine learning model will help predict whether a wildfire becomes a major wildfire or not.
 
-Additionally, inputting ZIP codes where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these ZIP codes to the ocean will aid in this prediction as wildfires are typically inland.
+Additionally, inputting Counties where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these Counties to the ocean will aid in this prediction as wildfires are typically inland.
 
-Demographics of a region may also help in predicting wildfire outcomes such as the population of a ZIP code, median income of a ZIP code, and the median house value of a ZIP code.
+Demographics of a region may also help in predicting wildfire outcomes such as the population of a County, median income of a County, and the median house value of a County.
 
-Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per ZIP code.
+Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per County.
 
 Likewise, the amount of resources used to stop the fire such as the number of air tankers deployed and number of water tenders utilized will help predict whether the wildfire became a major wildfire or not.
 
 Finally, the year that the wildfire occurred will help in predicting whether the wildfire became a major wildfire incident or not as the factors that contribute to wildfire risk like environmental factors may change over time to increase or decrease the likelihood of major wildfire incidents.
 
-Ultimately, knowing these factors will give insight as to which California (CA) ZIP codes are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to ZIP codes where the likelihood of major wildfire risk is high.
+Ultimately, knowing these factors will give insight as to which California (CA) Counties are more at risk of suffering from major wildfires and will guide future decisions in allocating more resources to Counties where the likelihood of major wildfire risk is high.
 
 ### Description & Explanation of Model:
 
 - **Which model did you choose and why?**
   - We chose a **supervised machine learning model** based on a **logistic regression model** because we want to predict whether a wildfire was a major wildfire or not.
 - **How are you training your model?**
-  - We are training our model on a **logistic regression model** because our output, y, is binary: major wildfire **or** not a major wildfire. 75% of our data will be training data, while the other 25% of our data will be testing data.
+  - We are training our model on a **logistic regression model** because our output, Y, is binary: major wildfire **or** not a major wildfire. 75% of our data will be training data, while the other 25% of our data will be testing data.
 - **What is the model's accuracy?**
   - To be determined.
 - **How does this model work?**
@@ -164,7 +164,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 
 ## Database
 
-Below is an ERD that shows the provisional database that will turn into our final database. There are six databases featured in the ERD. Five of these represent cleaned-up versions of our Kaggle Datasets. Important to note, most of the datasets do not feature the data that will be our primary key: ZIP codes. Part of our initial data clean-up process will be to convert the latitude and longitude data provided in each data source into a corresponding ZIP code. All other information will be pulled from the data sources from Kaggle and cleaned accordingly. For example, in the "CA Region by Zip" table, once we have determined the ZIP code from the latitude and longitude, we will group the "Ocean Proximity" labels by the ZIP code associated with it.
+Below is an ERD that shows the provisional database that will turn into our final database. There are six databases featured in the ERD. Five of these represent cleaned-up versions of our Kaggle Datasets. Important to note, most of the datasets do not feature the data that will be our primary key: County. Part of our initial data clean-up process will be to convert the latitude and longitude data provided in each data source into a corresponding County. All other information will be pulled from the data sources from Kaggle and cleaned accordingly. For example, in the "CA Region by Zip" table, once we have determined the County from the latitude and longitude, we will group the "Ocean Proximity" labels by the Counties associated with it.
 
 The "Major Fire Risk by ZIP Code" database will be the data we receive from our machine learning model. The model would predict whether a wildfire was at risk of becoming a major wildfire incident or not and group the results by the ZIP code it predicted. This prediction will give us more insight on which areas of the state would benefit from close monitoring and additional/modified resources to avoid a wildfire from becoming a major incident.
 
