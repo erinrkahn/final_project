@@ -2,7 +2,7 @@
 .DS_Store
 
 # Ignore these Jupyter Notebooks
-Data_Cleaning/Further_Cleanup_on_All_Datasets (Just in Case Copy).ipynb
+Data_Cleaning/Double_Checking_Final_Cleaned_Data.ipynb
 Reverse Geocoding Example.ipynb
 
 # Ignore these CSVs
