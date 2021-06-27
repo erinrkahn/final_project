@@ -1,6 +1,6 @@
 # Do not want this file public for hackers
 .DS_Store
-
+config.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
