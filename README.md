@@ -99,7 +99,7 @@ During the analysis phase, we focused on:
 ## Machine Learning Model
 
 ### Purpose:
-![Machine_Learning_Model](https://github.com/erinrkahn/project_one/blob/main/Images/Machine%20Learning%20Model%20Overview_Draft_3.png)
+![Machine_Learning_Model](https://github.com/erinrkahn/final_project/blob/miabroad/Images/Updated_Machine_Learning_Model.png)
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) taken from the provisional database that we created and input them into a supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
 - Precipitation (in) in County
@@ -152,15 +152,34 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 - **How does this model work?**
   - This supervised machine learning model will be built as a deep learning neural network because a deep learning neural network will learn and figure out relationships between the various variables. Likewise, it will be able to determine which input features are more significant in determining whether a wildfire becomes a major wildfire or not.
 
-### Code for Machine Learning Model
+### Code for Machine Learning Model:
 
-- **Description of preliminary data preprocessing**
+- **The Preliminary Data Preprocessing**
+  - In order to perform the machine learning model, we needed to preprocess all four datasets and merge them together by County and Year.
+  - For all four data sets:
+    - Unnecessary columns were dropped.
+    - Data types were changed accordingly if the column data did not match the data type.
+    - Columns were renamed and reordered for organization purposes.
+    - The column "County" was made to be the same for all four data sets which included dropping any data pertaining to Imperial and San Francisco counties since the wildfire data set showed that no fires occurred in those counties from 2013-2019.
+    - Duplicate data was dropped so that the model would not be overfitted.
+    - Categorical data was encoded using OneHotEncoder since the neural network can only take in and interpret numerical values.
 
-- **Description of preliminary feature engineering and preliminary feature selection, including the decision-making process**
+- **Preliminary Feature Engineering and Preliminary Feature Selection**
+  - For the model, we decided upon a model based on a deep learning neural network due to the diversity of the input data.
+  - Since the inputs of the model range from average housing prices to average soil temperature (F), we believed a neural network would be able to figure out and parse through the complexity of the relationships of these variables better than a simple logistic regression model or decision tree.
+  - The **X** variable of our model is all of the data except for the hot encoded **Major Incident** column, and the **y** variable was the **Major Incident** column from the wildfire data set.
+ 
+- **Splitting into Training and Testing Sets**
+  -  For the model, we decided to use a traditional split of inputting **75%** of the data into the training set and **25%** of the data into the testing set.
+  -  This split was also possible due to the fact that the compiled, merged data set is very large, and thus there would be plenty of data to be tested on for a 25% split.
 
-- **Description of how data was split into training and testing sets**
+- **Model Choice**
+  - As previously mentioned, we decided upon using a deep learning neural network because it would be able to parse out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
+  - However, the greatest limitation and caveat of a neural network model is that it processes these relationships in a black box, so we have no idea about how it's relating these variables to one another let alone the reasoning behind which input features the model prioritizes as the most significant input features for determining the best accuracy.
 
-- **Explanation of model choice, including limitations and benefits**
+- **Note**
+  - Although we have a preliminary model up and running, there is still a lot of testing to be done to fine-tune the model as it is currently over-fitted.
+    - A primary objective this week of the project is to figure out how to solve this issue. 
 
 ## Database
 
