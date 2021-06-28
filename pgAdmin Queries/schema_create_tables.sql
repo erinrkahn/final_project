@@ -2,7 +2,7 @@
 CREATE TABLE fire(
 	INDEX INT NOT NULL,
 	"Name" VARCHAR NOT NULL,
-	"Counties" VARCHAR NOT NULL,
+	"County" VARCHAR NOT NULL,
 	"County IDs" INT NOT NULL,
 	"Latitude" FLOAT8 NOT NULL,
 	"Longitude" FLOAT8 NOT NULL,
@@ -10,7 +10,8 @@ CREATE TABLE fire(
 	"Year" INT NOT NULL,
 	"Acres Burned" FLOAT8,
 	"Cal Fire Incident" BOOL NOT NULL,
-	"Major Incident" BOOL NOT NULL
+	"Major Incident" BOOL NOT NULL,
+	PRIMARY KEY ("Name", "County", "Year", "Started")
 );
 
 SELECT * FROM fire;
@@ -23,7 +24,8 @@ CREATE TABLE electricity(
 	index INT NOT NULL,
 	"County" VARCHAR NOT NULL,
 	"Year" INT NOT NULL,
-	"MWh" FLOAT8 NOT NULL
+	"MWh" FLOAT8 NOT NULL,
+	PRIMARY KEY ("County", "Year")
 );
 
 SELECT * FROM electricity;
@@ -40,7 +42,8 @@ CREATE TABLE housing(
 	"Population" INT NOT NULL,
 	"Households" INT NOT NULL,
 	"Average Income" INT NOT NULL,
-	"Average House Value" INT NOT NULL
+	"Average House Value" INT NOT NULL,
+	PRIMARY KEY ("County", "Latitude", "Longitude")
 );
 
 SELECT * FROM housing;
@@ -53,7 +56,7 @@ CREATE TABLE enviornment(
 	index INT NOT NULL,
 	"County" VARCHAR NOT NULL,
 	"Year" INT NOT NULL,
-	"ETo (in)" FLOAT8 NOT NULL,
+	"ETo (in)" FLOAT8,
 	"Precip (in)" FLOAT8 NOT NULL,
 	"Sol Rad (Ly/day)" FLOAT8 NOT NULL,
 	"Avg Vap Pres (mBars)" FLOAT8 NOT NULL,
@@ -65,7 +68,8 @@ CREATE TABLE enviornment(
 	"Avg Rel Hum (%)" FLOAT8 NOT NULL,
 	"Dew Point (F)" FLOAT8 NOT NULL,
 	"Avg Wind Speed (mph)" FLOAT8 NOT NULL,
-	"Avg Soil Temp (F)" FLOAT8 NOT NULL
+	"Avg Soil Temp (F)" FLOAT8 NOT NULL,
+	PRIMARY KEY ("County", "Year")
 );
 
 SELECT * FROM enviornment;
