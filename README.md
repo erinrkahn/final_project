@@ -102,28 +102,32 @@ During the analysis phase, we focused on:
 ![Machine_Learning_Model](https://github.com/erinrkahn/final_project/blob/miabroad/Images/Updated_Machine_Learning_Model.png)
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) taken from the provisional database that we created and input them into a supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
-- Precipitation (in) in County
-- Average vapor pressure (mBars) in County
-- Maximum air temperature (F) in County
-- Maximum relative humidity (%) in County
-- Average wind speed (mph) in County
-- Average soil temperature (F) in County
+- ETo (in) in County
+- Precip (in) in County
+- Sol Rad (Ly/day) in County
+- Avg Vap Pres (mBars) in County
+- Max Air Temp (F) in County
+- Min Air Temp (F) in County
+- Avg Air Temp (F) in County
+- Max Rel Hum (%) in County
+- Min Rel Hum (%) in County
+- Avg Rel Hum (%) in County
+- Dew Point (F) in County
+- Avg Wind Speed (mph) in County
+- Avg Soil Temp (F) in County
 #### Region
-- The County in which wildfires started and occurred
+- The County in which wildfires occurred
 - The proximity of that County to the ocean
 #### Demographics
 - Population of County
-- Median income of County
-- Median house value of County
+- Average income of County
+- Average house value of County
+#### Characteristics of Wildfire
+- Latitude and longitude coordinates where fire started
+- Number of acres fire burned
+- Cal Fire Incident, meaning did Cal Fire get involved in handling the fire or not
 #### Electricity
-- Electricity consumption per County
-#### Amount of Resources Allocated to Stop Fire
-- Number of Air Tankers
-- Number of Cal Fire Incidents
-- Number of Dozers
-- Number of Engines
-- Number of Helicopters
-- Number of Water Tenders
+- Electricity consumption measured in MWh per County
 #### Time
 - Year
 
@@ -133,9 +137,9 @@ Additionally, inputting Counties where previous wildfires have started and occur
 
 Demographics of a region may also help in predicting wildfire outcomes such as the population of a County, median income of a County, and the median house value of a County.
 
-Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per County.
+Likewise, characteristics of the wildfire itself like the number of acres the fire burned and coordinates of where it started may help determine the possibility of a wildfire becoming a major incident or not.
 
-Likewise, the amount of resources used to stop the fire such as the number of air tankers deployed and number of water tenders utilized will help predict whether the wildfire became a major wildfire or not.
+Another interesting factor that may aid in predicting major wildfire risk is the electricity consumption per County.
 
 Finally, the year that the wildfire occurred will help in predicting whether the wildfire became a major wildfire incident or not as the factors that contribute to wildfire risk like environmental factors may change over time to increase or decrease the likelihood of major wildfire incidents.
 
