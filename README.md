@@ -81,7 +81,7 @@ During the analysis phase, we focused on:
 <br>With the likelihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the likelihood of a major event or not based on our variables is an important part of answering the question we are trying to solve. For this project, we will use TensorFlow, a Python library, to create a deep learning neural network based on a logistic regression model to determine whether a wildfire is a major wildfire or not.
 
 **Data Storage**
-<br>In addition to the machine learning models, our database can be stored in MongoDB for easy access. The applicable Pymongo library may also be used to integrate our database into our models.   
+<br>In order to provide the machine learning models with the data needed, our database is stored in pgAdmin using Amazon Web Services for easy shareable access. Additionally, our final database that the machine learning model will pull from an S3 bucket hosted through AWS as well. Thus allowing for streamlined and cloud based access for our database and all necessary datasets.
 
 **Dashboard Analysis**
 <br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
@@ -163,12 +163,13 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 - **Explanation of model choice, including limitations and benefits**
 
 ## Database
+![pgAdmin](Images/pgAdmin.png)
 
-Below is an ERD that shows the provisional database that will turn into our final database. There are six databases featured in the ERD. Five of these represent cleaned-up versions of our Kaggle Datasets. Important to note, most of the datasets do not feature the data that will be our primary key: ZIP codes. Part of our initial data clean-up process will be to convert the latitude and longitude data provided in each data source into a corresponding ZIP code. All other information will be pulled from the data sources from Kaggle and cleaned accordingly. For example, in the "CA Region by Zip" table, once we have determined the ZIP code from the latitude and longitude, we will group the "Ocean Proximity" labels by the ZIP code associated with it.
+Through Amazon Web Services we established a shared database for our project using pgAdmin. We created 4 schemas within pgAdmin to get us started. These were the cleaned and processed data for California Fires, Housing, Electricity, and Enviornmental data. After the data was stored in pgAdmin, we merged the data three times. The first one to include the fire and enviornmental data. The next, to merge the electricity data as well. And finally, the all_data_merged data which is all pertinent data from the datasets logged into one. The all_data_merged file is what will be input into the machine learning model. In addition to exporting the all_data_merged data into our repository, we will also be storing it in an S3 bucket -- also hosted by AWS. This will also be the way our machine learning model will access the data. 
 
-The "Major Fire Risk by ZIP Code" database will be the data we receive from our machine learning model. The model would predict whether a wildfire was at risk of becoming a major wildfire incident or not and group the results by the ZIP code it predicted. This prediction will give us more insight on which areas of the state would benefit from close monitoring and additional/modified resources to avoid a wildfire from becoming a major incident.
+Below is an updated ERD which shows the 4 cleaned datasets initially stored in pgAdmin and the final all_data_merged dataset. Located in our repository under [pgAdmin Queries](pgAdmin\Queries") are the schema and merge queries done through pgAdmin.
 
-![Schema_Draft](Images/schema_draft.png)
+![Schema](Images/schema_draft2.png)
 
 ## Dashboard
 

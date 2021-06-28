@@ -1,16 +1,16 @@
 -- Creating tables for California Fires Final Project
 CREATE TABLE fire(
 	INDEX INT NOT NULL,
-	"Name" VARCHAR NOT NULL,
-	"County" VARCHAR NOT NULL,
-	"County IDs" INT NOT NULL,
-	"Latitude" FLOAT8 NOT NULL,
-	"Longitude" FLOAT8 NOT NULL,
-	"Started" VARCHAR NOT NULL,
-	"Year" INT NOT NULL,
+	"Name" VARCHAR,
+	"County" VARCHAR,
+	"County IDs" INT,
+	"Latitude" FLOAT8,
+	"Longitude" FLOAT8,
+	"Started" VARCHAR,
+	"Year" INT,
 	"Acres Burned" FLOAT8,
-	"Cal Fire Incident" BOOL NOT NULL,
-	"Major Incident" BOOL NOT NULL,
+	"Cal Fire Incident" BOOL,
+	"Major Incident" BOOL,
 	PRIMARY KEY ("Name", "County", "Year", "Started")
 );
 
@@ -36,14 +36,13 @@ DROP COLUMN index;
 CREATE TABLE housing(
 	index INT NOT NULL,
 	"County" VARCHAR NOT NULL,
-	"Latitude" FLOAT8 NOT NULL,
-	"Longitude" FLOAT8 NOT NULL,
 	"Ocean Proximity" VARCHAR NOT NULL,
 	"Population" INT NOT NULL,
 	"Households" INT NOT NULL,
 	"Average Income" INT NOT NULL,
 	"Average House Value" INT NOT NULL,
-	PRIMARY KEY ("County", "Latitude", "Longitude")
+	PRIMARY KEY ("County"),
+	UNIQUE("County")
 );
 
 SELECT * FROM housing;
@@ -54,21 +53,21 @@ DROP COLUMN index;
 
 CREATE TABLE enviornment(
 	index INT NOT NULL,
-	"County" VARCHAR NOT NULL,
-	"Year" INT NOT NULL,
+	"County" VARCHAR,
+	"Year" INT,
 	"ETo (in)" FLOAT8,
-	"Precip (in)" FLOAT8 NOT NULL,
-	"Sol Rad (Ly/day)" FLOAT8 NOT NULL,
-	"Avg Vap Pres (mBars)" FLOAT8 NOT NULL,
-	"Max Air Temp (F)" FLOAT8 NOT NULL,
-	"Min Air Temp (F)" FLOAT8 NOT NULL,
-	"Avg Air Temp (F)" FLOAT8 NOT NULL,
-	"Max Rel Hum (%)" FLOAT8 NOT NULL,
-	"Min Rel Hum (%)" FLOAT8 NOT NULL,
-	"Avg Rel Hum (%)" FLOAT8 NOT NULL,
-	"Dew Point (F)" FLOAT8 NOT NULL,
-	"Avg Wind Speed (mph)" FLOAT8 NOT NULL,
-	"Avg Soil Temp (F)" FLOAT8 NOT NULL,
+	"Precip (in)" FLOAT8,
+	"Sol Rad (Ly/day)" FLOAT8,
+	"Avg Vap Pres (mBars)" FLOAT8,
+	"Max Air Temp (F)" FLOAT8,
+	"Min Air Temp (F)" FLOAT8,
+	"Avg Air Temp (F)" FLOAT8,
+	"Max Rel Hum (%)" FLOAT8,
+	"Min Rel Hum (%)" FLOAT8,
+	"Avg Rel Hum (%)" FLOAT8,
+	"Dew Point (F)" FLOAT8,
+	"Avg Wind Speed (mph)" FLOAT8,
+	"Avg Soil Temp (F)" FLOAT8,
 	PRIMARY KEY ("County", "Year")
 );
 
