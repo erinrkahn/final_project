@@ -1,5 +1,16 @@
-# Do not want this file public for hackers
+# Ignore: do NOT want this file public for hackers
 .DS_Store
+config.py
+
+# Ignore these Jupyter Notebooks
+Data_Cleaning/Double_Checking_Final_Cleaned_Data.ipynb
+Reverse Geocoding Example.ipynb
+
+# Ignore these CSVs
+ElectricityByCounty CALIFORNIA Usage in Millions of kWh.csv
+housing.csv
+California_Fire_Incidents.csv
+all_conditions.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
