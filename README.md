@@ -175,8 +175,18 @@ The "Major Fire Risk by ZIP Code" database will be the data we receive from our 
 Dashboard Storyboard - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit#slide=id.ge0f4930212_0_52)
 
 Description of the tool(s) that will be used to create the final dashboard
-- Tableau will be used to create our dashboard
+- Tableau will be used to create our dashboard. We have chosen to use Tableau as our visualization tool. Tableau creates complex visualizations that are also easy to understand for a variety of audiences. 
 
 Description of interactive element(s)
-- Map (counties, fires (location & acres burned), housing, electricity consumption)
+- **Map
+  - Filter Fires (major event or not)
+- **Line Plot
+  - Filter for counties
+  - Electricity consumption, median house price, population
+- **10 Largest Fires
+  - Location of fires
+  - Filter by year
+- **Electricity vs Housing
+  - Scale by wind data
+
 
