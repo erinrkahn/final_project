@@ -178,15 +178,15 @@ Description of the tool(s) that will be used to create the final dashboard
 - Tableau will be used to create our dashboard. We have chosen to use Tableau as our visualization tool. Tableau creates complex visualizations that are also easy to understand for a variety of audiences. 
 
 Description of interactive element(s)
-- **Map
+- **Map**
   - Filter Fires (major event or not)
-- **Line Plot
+- **Line Plot**
   - Filter for counties
   - Electricity consumption, median house price, population
-- **10 Largest Fires
+- **10 Largest Fires**
   - Location of fires
   - Filter by year
-- **Electricity vs Housing
+- **Electricity vs Housing**
   - Scale by wind data
 
 
