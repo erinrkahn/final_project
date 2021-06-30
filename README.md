@@ -3,7 +3,7 @@ A shared repository for our final project.
 
 ---
 
-## Presentation:
+## Presentation
 
 <p align="center">
 <img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
@@ -72,7 +72,7 @@ During the analysis phase, we focused on:
 
 ---
 
-## Technologies Used:
+## Technologies Used
 
 **Code and Workbooks**
 <br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
