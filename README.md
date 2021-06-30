@@ -21,7 +21,7 @@ California has recently had some of the most deadly and destructive fire seasons
 
 ### Original Data Source:
 
-All datasets are from Kaggle 
+All datasets are from Kaggle. 
 
 **California Wildfires (2013-2020)**
 - The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event.  
