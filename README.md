@@ -1,7 +1,9 @@
 # Final Project - Group 4
-A shared repository for our final project
+A shared repository for our final project.
 
-## Presentation
+---
+
+## Presentation:
 
 <p align="center">
 <img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
@@ -9,21 +11,20 @@ A shared repository for our final project
 
 Presentation slides - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit?usp=sharing)
 
-#### Selected Topic 
+### Selected Topic: 
 
 We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
 
-### Reason why they selected topic
+### Why We Want to Investigate the Factors that Cause Major Wildfire Incidents:
 
 California has recently had some of the most deadly and destructive fire seasons. With the state entering an extreme drought, the 2021 fire season is expected to be very high risk. With this analysis, main contributing factors will be identified and resources can be allocated to decrease the risk of major wildfire events in California regions. 
 
-### Description of their source of data
+### Original Data Source:
 
-All datasets are from Kaggle 
+We curated the four following data sets from Kaggle for our analysis:
 
 **California Wildfires (2013-2020)**
 - The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event.  
-
 **California Housing Data**
 - The California housing data include location, population size of the block, house value and median income.
 
@@ -33,7 +34,7 @@ All datasets are from Kaggle
 **California - Electricity Consumption by County Dataset**
 - Historical energy consumption data by county. 
 
-#### Questions they hope to answer with the data
+### Questions We Hope to Answer:
 
 1) What factors contribute to certain California fires becoming a major fire event? 
 2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
@@ -41,7 +42,7 @@ All datasets are from Kaggle
 4) Is there a relationship between number of fires (or acres burned) and energy consumption? 
 5) What weather patterns increase the risk for a major fire event?
 
-#### Description of the data exploration phase of the project
+### Data Exploration Phase:
 
 - We began with the California Wildfires (2013-2020) dataset
   - Identify columns of interest 
@@ -62,14 +63,16 @@ All datasets are from Kaggle
 - Convert data types 
 - Duplicate weather condition data for counties not represented by using county data from similar climate zones. 
 
-#### Description of the analysis phase of the project
+### Data Analysis Phase:
 
 During the analysis phase, we focused on:
 - Creating a Boxplot to identify outliers
 - Creating our database tables 
 - Our initial approach to our machine learning model
 
-### Technologies Used
+---
+
+## Technologies Used:
 
 **Code and Workbooks**
 <br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
@@ -77,7 +80,7 @@ During the analysis phase, we focused on:
 **Initial Data Cleaning**
 <br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense on the individual variables being used, to spot outliers and determine significance in some of the data. 
 
-**Binary Classification**
+**Machine Learning Model**
 <br>With the likelihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the likelihood of a major event or not based on our variables is an important part of answering the question we are trying to solve. For this project, we will use TensorFlow, a Python library, to create a deep learning neural network based on a logistic regression model to determine whether a wildfire is a major wildfire or not.
 
 **Data Storage**
@@ -86,17 +89,21 @@ During the analysis phase, we focused on:
 **Dashboard Analysis**
 <br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
 
-
+---
 
 ## GitHub
 
-#### Communication Protocols
+### Communication Protocols:
 
 1) Slack group chat will be used to share resources, ask questions and coordinate progress on deliverables.
 2) The 7-9 pm PST workblock will be used for group working sessions
 3) Main branch merge and weekly submissions will be coordinated by repository team member aligned with team established deadline.
 
+---
+
 ## Machine Learning Model
+
+### Link: https://colab.research.google.com/drive/1fDJt_U9evtU20pq53nccp1hQQdgFUkpN?usp=sharing
 
 ### Purpose:
 ![Machine_Learning_Model](https://github.com/erinrkahn/final_project/blob/miabroad/Images/Updated_Machine_Learning_Model.png)
@@ -181,9 +188,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
   - As previously mentioned, we decided upon using a deep learning neural network because it would be able to parse out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
   - However, the greatest limitation and caveat of a neural network model is that it processes these relationships in a black box, so we have no idea about how it's relating these variables to one another let alone the reasoning behind which input features the model prioritizes as the most significant input features for determining the best accuracy.
 
-- **Note**
-  - Although we have a preliminary model up and running, there is still a lot of testing to be done to fine-tune the model as it is currently over-fitted.
-    - A primary objective this week of the project is to figure out how to solve this issue. 
+---
 
 ## Database
 ![pgAdmin](Images/pgAdmin.png)
@@ -193,6 +198,8 @@ Through Amazon Web Services we established a shared database for our project usi
 Below is an updated ERD which shows the 4 cleaned datasets initially stored in pgAdmin and the final all_data_merged dataset. Located in our repository under pgAdmin Queries are the schema and merge queries done through pgAdmin.
 
 ![Schema](Images/schema_draft2.png)
+
+---
 
 ## Dashboard
 
@@ -212,5 +219,3 @@ Description of interactive element(s)
   - Filter by year
 - **Electricity vs Housing**
   - Scale by wind data
-
-
