@@ -24,7 +24,8 @@ California has recently had some of the most deadly and destructive fire seasons
 We curated the four following data sets from Kaggle for our analysis:
 
 **California Wildfires (2013-2020)**
-- The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event.  
+- The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event. 
+
 **California Housing Data**
 - The California housing data include location, population size of the block, house value and median income.
 
