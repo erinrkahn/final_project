@@ -1,6 +1,5 @@
 -- Creating tables for California Fires Final Project
 CREATE TABLE fire(
-	INDEX INT NOT NULL,
 	"Name" VARCHAR,
 	"County" VARCHAR,
 	"County IDs" INT,
@@ -15,10 +14,6 @@ CREATE TABLE fire(
 );
 
 SELECT * FROM fire;
-
-ALTER TABLE fire 
-DROP COLUMN index;
-
 
 CREATE TABLE electricity(
 	index INT NOT NULL,
