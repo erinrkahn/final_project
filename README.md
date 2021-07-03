@@ -107,7 +107,7 @@ During the analysis phase, we focused on:
 ### Link: https://colab.research.google.com/drive/1fDJt_U9evtU20pq53nccp1hQQdgFUkpN?usp=sharing
 
 ### Purpose:
-![Machine_Learning_Model](https://github.com/erinrkahn/final_project/blob/miabroad/Images/FINAL_ML_Model_Flowchart.png)
+![Machine_Learning_Model](https://github.com/erinrkahn/final_project/blob/main/Images/FINAL_ML_Model_Flowchart.png)
 The purpose of this analysis is to analyze which factors from previous California (CA) wildfires made that wildfire into either a major wildfire or not. To perform this analysis, we will use the following features (X) taken from the provisional database that we created and input them into a supervised machine learning model to predict whether a wildfire was a major wildfire or not (y):
 #### Environmental Factors
 - ETo (in) in County
