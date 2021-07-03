@@ -189,6 +189,15 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
   - As previously mentioned, we decided upon using a deep learning neural network because it would be able to parse out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
   - However, the greatest limitation and caveat of a neural network model is that it processes these relationships in a black box, so we have no idea about how it's relating these variables to one another let alone the reasoning behind which input features the model prioritizes as the most significant input features for determining the best accuracy.
 
+- **Explanation of changes in model choice (if changed)**
+  - 
+
+- **Description of how the model has been trained thus far**
+  -
+
+- **Description of current accuracy score**
+  - 
+
 ---
 
 ## Database
