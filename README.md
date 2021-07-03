@@ -231,3 +231,26 @@ Description of interactive element(s)
   - Filter by year
 - **Electricity vs Housing**
   - Scale by wind data
+
+### Tableau Story
+
+#### General Info and Trends of California Wildfires Over Time
+> UPDATE WITH IMAGE & Link
+
+#### Wildfires and Environmental Factors
+> Acres Burned and Environmental Conditions by Year [LINK to Dashbaord] (https://public.tableau.com/app/profile/amir.shirazi/viz/EnvGraphDash/EnvGraphDash)
+
+
+> Maps of Environmental Factors by County [LINK to Dashbaord] (https://public.tableau.com/app/profile/amir.shirazi/viz/EnvMapDash/MapDash)
+
+
+#### Wildfires and Housing/Income Impact
+> Acres Burned, Income Levels and Home Values [LINK to Dashbaord] (https://public.tableau.com/app/profile/drew.piispanen/viz/HousingFireDataDashboard/Dashboard1)
+
+
+#### Wildfires and Electrical Consumption Impact
+> Acres Burned, Energy Consumption and Population [LINK to Dashbaord] (https://public.tableau.com/app/profile/erin.kahn/viz/Fire_Project/EnergyConsumptionDashboard)
+
+
+#### Data (images or report) from the machine learning task
+> UPDATE WITH IMAGE 
