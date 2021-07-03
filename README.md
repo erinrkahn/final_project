@@ -238,19 +238,26 @@ Description of interactive element(s)
 > UPDATE WITH IMAGE & Link
 
 #### Wildfires and Environmental Factors
-> Acres Burned and Environmental Conditions by Year [LINK to Dashbaord] (https://public.tableau.com/app/profile/amir.shirazi/viz/EnvGraphDash/EnvGraphDash)
 
+<img width="640" alt="Env_conditions_year" src="https://user-images.githubusercontent.com/77405273/124361774-a78d9680-dbe5-11eb-959a-47adef1965c1.png">
 
-> Maps of Environmental Factors by County [LINK to Dashbaord] (https://public.tableau.com/app/profile/amir.shirazi/viz/EnvMapDash/MapDash)
+> Maps of Environmental Factors by County [LINK to Dashbaord](https://public.tableau.com/app/profile/amir.shirazi/viz/EnvMapDash/MapDash)
 
+<img width="642" alt="Env_conditions_map" src="https://user-images.githubusercontent.com/77405273/124361778-aa888700-dbe5-11eb-94cc-fd8266126df1.png">
+
+> Maps of Environmental Factors by County [LINK to Dashbaord](https://public.tableau.com/app/profile/amir.shirazi/viz/EnvMapDash/MapDash)
 
 #### Wildfires and Housing/Income Impact
-> Acres Burned, Income Levels and Home Values [LINK to Dashbaord] (https://public.tableau.com/app/profile/drew.piispanen/viz/HousingFireDataDashboard/Dashboard1)
 
+<img width="642" alt="Housing" src="https://user-images.githubusercontent.com/77405273/124361779-abb9b400-dbe5-11eb-928d-04b7a726c097.png">
+
+> Acres Burned, Income Levels and Home Values [LINK to Dashbaord](https://public.tableau.com/app/profile/drew.piispanen/viz/HousingFireDataDashboard/Dashboard1)
 
 #### Wildfires and Electrical Consumption Impact
-> Acres Burned, Energy Consumption and Population [LINK to Dashbaord] (https://public.tableau.com/app/profile/erin.kahn/viz/Fire_Project/EnergyConsumptionDashboard)
 
+<img width="647" alt="Electricity" src="https://user-images.githubusercontent.com/77405273/124361781-ae1c0e00-dbe5-11eb-9e8f-42f66dff3f0d.png">
+
+> Acres Burned, Energy Consumption and Population [LINK to Dashbaord](https://public.tableau.com/app/profile/erin.kahn/viz/Fire_Project/EnergyConsumptionDashboard)
 
 #### Data (images or report) from the machine learning task
 > UPDATE WITH IMAGE 
