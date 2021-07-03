@@ -191,14 +191,23 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 
 ### Refining the Machine Learning Model:
 
-- **Explanation of changes in model choice (if changed)**
+- **Model Choice**
+  - During the creation of the machine learning model, we initially created two separate models: a deep learning neural network (our initial idea and priority) and a logistic regression model (in case the deep learning neural network did not work out).
+  - Ultimately, the deep learning neural network outperformed the logistic regression model in terms of accuracy (79-80% vs. 76-77%, respectively), and was more fitting for the complete data set as it could interpret complex relationships among the very different data inputs in our data set in comparison to a simple logistic regression model.
 
+- **Training the Model**
+  - The data inputted into the deep learning neural network machine learning model was split 75% for training and 25% for testing with a random state of 78.
+  - The training and testing input features were then fitted and scaled using StandardScaler().
+  - The deep learning neural network's input layer was the same size as the number of different features inputted into the model and it contained three hidden layers with three nodes, five nodes, and five nodes, respectively.
+    - The activation function for all three hidden layers was relu, as that activation function performed the best in terms of accuracy.
+    - When more hidden layers were added while creating and testing the model, the accuracy of the model actually decreased, so three hidden layers was the best.
+  - The output layer contained one unit and its activation function was sigmoid because y was a binary output: either the fire was a major incident, "True", or was not, "False". 
+  - The model was trained on 20 epochs as to 1) not be overfitted and 2) when trained on more epochs like 100 epochs, the model's accuracy did not increase.
 
-- **Description of how the model has been trained thus far**
-
-
-- **Description of current accuracy score**
-
+- **Current Accuracy Score**
+  - The model's current accuracy score is **79.19%** and its loss is **0.4720**.
+  - This accuracy score was the highest accuracy score that we could achieve from the model without overfitting the model.
+  - Since the accuracy score is relatively high, it can be concluded that this model is very good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
 
 ---
 
