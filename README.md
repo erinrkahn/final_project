@@ -180,5 +180,5 @@ Description of the tool(s) that will be used to create the final dashboard
 Description of interactive element(s)
 - Map (counties, fires (location & acres burned), housing, electricity consumption)
 
-Dashboard Tableau Story Link:
+Tableau Dashboard Link:
 https://public.tableau.com/views/Final_Project_16253475245320/MLModel?:language=en-US&:display_count=n&:origin=viz_share_link
