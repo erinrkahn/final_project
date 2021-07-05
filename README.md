@@ -224,7 +224,7 @@ Below is an updated ERD which shows the 4 cleaned datasets initially stored in p
 
 ## Dashboard
 
-Dashboard Storyboard - [LINK](https://docs.google.com/presentation/d/1ZyAf5inS5cdrgjLXJzkdfpqEq0bM7Uo2M7a02_pBoic/edit#slide=id.ge0f4930212_0_52)
+Tableau Story - [LINK](https://public.tableau.com/app/profile/drew.piispanen/viz/Final_Project_16253475245320/CaliFireStory)
 
 Description of the tool(s) that will be used to create the final dashboard
 - Tableau will be used to create our dashboard. We have chosen to use Tableau as our visualization tool. Tableau creates complex visualizations that are also easy to understand for a variety of audiences. 
@@ -271,5 +271,8 @@ Description of interactive element(s)
 
 > Acres Burned, Energy Consumption and Population [LINK to Dashboard](https://public.tableau.com/app/profile/erin.kahn/viz/Fire_Project/EnergyConsumptionDashboard)
 
-#### Data (images or report) from the machine learning task
-> UPDATE WITH IMAGE 
+#### Machine Learning Model Results
+
+<img width="732" alt="Screen Shot 2021-07-05 at 9 19 06 AM" src="https://user-images.githubusercontent.com/77405273/124498987-1b5caa00-dd72-11eb-8a62-7bc741bcb053.png">
+
+> Machine Learning Model Loss (0.4720) and Accuracy (0.7919)
