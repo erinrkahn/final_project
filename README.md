@@ -181,4 +181,4 @@ Description of interactive element(s)
 - Map (counties, fires (location & acres burned), housing, electricity consumption)
 
 Tableau Dashboard Link:
-https://public.tableau.com/views/Final_Project_16253475245320/MLModel?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Final_Project_16253475245320/CaliFireStory?:language=en-US&:display_count=n&:origin=viz_share_link
