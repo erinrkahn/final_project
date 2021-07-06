@@ -146,17 +146,17 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 ### Description & Explanation of Model:
 
 - **Which model did you choose and why?**
-  - We chose a **supervised machine learning model** based on a **logistic regression model** because we want to predict whether a wildfire was a major wildfire or not.
+  - We chose a **deep learning neural network** with an output layer that has a **sigmoid activation function** because we want to predict whether a wildfire was a major wildfire incident or not.
 - **How are you training your model?**
-  - We are training our model on a **logistic regression model** because our output, Y, is binary: major wildfire **or** not a major wildfire. 75% of our data will be training data, while the other 25% of our data will be testing data.
+  - We are training our model on **20 epochs** as to not overfit the model. 75% of our data will be training data, while the other 25% of our data will be testing data.
 - **What is the model's accuracy?**
-  - To be determined.
+  - The model's accuracy is **79.19%**.
 - **How does this model work?**
-  - This supervised machine learning model will be built as a deep learning neural network because a deep learning neural network will learn and figure out relationships between the various variables. Likewise, it will be able to determine which input features are more significant in determining whether a wildfire becomes a major wildfire or not.
+  - This machine learning model is built as a deep learning neural network because a deep learning neural network will learn and figure out relationships between the various variables. Likewise, it will be able to determine which input features are more significant in determining whether a wildfire is a major wildfire or not.
 
 ### Code for Machine Learning Model:
 
-- **The Preliminary Data Preprocessing**
+- **The Data Preprocessing Stage**
   - In order to perform the machine learning model, we needed to preprocess all four datasets and merge them together by County and Year.
   - For all four data sets:
     - Unnecessary columns were dropped.
@@ -166,17 +166,17 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
     - Duplicate data was dropped so that the model would not be overfitted.
     - Categorical data was encoded using OneHotEncoder since the neural network can only take in and interpret numerical values.
 
-- **Preliminary Feature Engineering and Preliminary Feature Selection**
+- **Feature Engineering and Feature Selection**
   - For the model, we decided upon a model based on a deep learning neural network due to the diversity of the input data.
   - Since the inputs of the model range from average housing prices to average soil temperature (F), we believed a neural network would be able to figure out and parse through the complexity of the relationships of these variables better than a simple logistic regression model or decision tree.
-  - The **X** variable of our model is all of the data except for the hot encoded **Major Incident** column, and the **y** variable was the **Major Incident** column from the wildfire data set.
+  - The **X** variable of our model is all of the data except for the **Major Incident** column, and the **y** variable was the **Major Incident** column from the wildfire data set where 0 equaled False (not a major incident) and 1 equaled True (was a major incident).
  
 - **Splitting into Training and Testing Sets**
   -  For the model, we decided to use a traditional split of inputting **75%** of the data into the training set and **25%** of the data into the testing set.
   -  This split was also possible due to the fact that the compiled, merged data set is very large, and thus there would be plenty of data to be tested on for a 25% split.
 
 - **Model Choice**
-  - As previously mentioned, we decided upon using a deep learning neural network because it would be able to parse out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
+  - As previously mentioned, we decided upon using a deep learning neural network because it would be able to figure out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
   - However, the greatest limitation and caveat of a neural network model is that it processes these relationships in a black box, so we have no idea about how it's relating these variables to one another let alone the reasoning behind which input features the model prioritizes as the most significant input features for determining the best accuracy.
 
 ### Refining the Machine Learning Model:
@@ -197,7 +197,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 - **Current Accuracy Score**
   - The model's current accuracy score is **79.19%** and its loss is **0.4720**.
   - This accuracy score was the highest accuracy score that we could achieve from the model without overfitting the model.
-  - Since the accuracy score is relatively high, it can be concluded that this model is very good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
+  - Since the accuracy score is relatively high, it can be concluded that this model is good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
 
 ---
 
