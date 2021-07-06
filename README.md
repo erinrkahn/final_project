@@ -195,7 +195,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
   - The model was trained on 20 epochs as to 1) not be overfitted and 2) when trained on more epochs like 100 epochs, the model's accuracy did not increase.
 
 - **Current Accuracy Score**
-  - The model's current accuracy score is **79.19%** and its loss is **0.4720**.
+  - The model's current accuracy score is **79.19%** and its loss is **0.4720** (when the model was re-ran, loss was about 0.45).
   - This accuracy score was the highest accuracy score that we could achieve from the model without overfitting the model.
   - Since the accuracy score is relatively high, it can be concluded that this model is pretty good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
     - However, since the loss is not great, the parameters inputted into this model should be adjusted (e.g. taking away certain parameters that don't have a strong relationship to major wildfire incidents, adding additional parameters that do, or both) before implementing this model in a real world setting as well as increasing the accuracy to be 90%+ since we want resource allocation to be the most effective since resources to prevent wildfires are expensive.
