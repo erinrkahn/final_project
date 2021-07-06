@@ -229,6 +229,7 @@ Description of the tool(s) that will be used to create the final dashboard
 Description of interactive element(s)
 - Within our Tableau story, there are several interactive elements including;
   - **California Wildfires** - filter by county and year.
+  - **Environment** - filter by county
 
 ### Tableau Story
 
