@@ -92,16 +92,6 @@ During the analysis phase, we focused on:
 
 ---
 
-## GitHub
-
-### Communication Protocols:
-
-1) Slack group chat will be used to share resources, ask questions and coordinate progress on deliverables.
-2) The 7-9 pm PST workblock will be used for group working sessions
-3) Main branch merge and weekly submissions will be coordinated by repository team member aligned with team established deadline.
-
----
-
 ## Machine Learning Model
 
 ### Link: https://colab.research.google.com/drive/1fDJt_U9evtU20pq53nccp1hQQdgFUkpN?usp=sharing
