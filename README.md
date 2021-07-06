@@ -230,6 +230,7 @@ Description of interactive element(s)
 - Within our Tableau story, there are several interactive elements including;
   - **California Wildfires** - filter by county and year.
   - **Environment** - filter by county
+  - **Housing** - filter range of Average House Value
 
 ### Tableau Story
 
