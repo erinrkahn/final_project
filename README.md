@@ -200,6 +200,12 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
   - Since the accuracy score is relatively high, it can be concluded that this model is pretty good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
     - However, since the loss is not great, the parameters inputted into this model should be adjusted (e.g. taking away certain parameters that don't have a strong relationship to major wildfire incidents, adding additional parameters that do, or both) before implementing this model in a real world setting as well as increasing the accuracy to be 90%+ since we want resource allocation to be the most effective since resources to prevent wildfires are expensive.
 
+- **Future Statistical Analysis**
+  - To further investigate how well our model performs, the **sensitivity**, true positive rate, and the **specificity**, true negative rate, can be calculated from the model's results.
+    - Sensitivity would show the percentage of results that were predicted positive that were actually positive.
+    - Specificity would show the proportion of negative results of all the negative results that were correctly identified.
+  - Both measures are ultimately important to know in order to ensure that resources to prevent wildfires are sent to the proper, vulnerable locations based on the model's predictions. 
+
 ---
 
 ## Database
