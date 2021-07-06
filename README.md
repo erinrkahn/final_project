@@ -231,6 +231,7 @@ Description of interactive element(s)
   - **California Wildfires** - filter by county and year.
   - **Environment** - filter by county
   - **Housing** - filter range of Average House Value
+  - **Electricity** - filter by major incident and year
 
 ### Tableau Story
 
