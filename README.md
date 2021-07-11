@@ -202,9 +202,9 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 
 - **Future Statistical Analysis**
   - To further investigate how well our model performs, the **sensitivity**, true positive rate, and the **specificity**, true negative rate can be calculated from the model's results.
-    - Sensitivity would show the percentage of results that were predicted positive that were actually positive.
+    - Sensitivity would show the percentage of results that were predicted positive that were positive.
     - Specificity would show the proportion of negative results of all the negative results that were correctly identified.
-  - Both measures are ultimately important to know in order to ensure that resources to prevent wildfires are sent to the proper, vulnerable locations based on the model's predictions. 
+  - Both measures are ultimately important to know to ensure that resources to prevent wildfires are sent to the proper, vulnerable locations based on the model's predictions. 
 
 ---
 
