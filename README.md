@@ -13,7 +13,7 @@ A shared repository for our final project.
 
 ### Selected Topic: 
 
-We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
+We will be analyzing California wildfire risk, specifically what factors contribute to a wildfire being classified as a major fire event. Cal Fire defines a major fire event as an extended-day wildfire that is 10 acres or greater. By utilizing historical California wildfire, housing, and environmental conditions datasets, we hope to identify the factors that most commonly increase the risk of a wildfire becoming a major fire event.
 
 ### Why We Want to Investigate the Factors that Cause Major Wildfire Incidents:
 
@@ -24,23 +24,23 @@ California has recently had some of the most deadly and destructive fire seasons
 We curated the four following data sets from Kaggle for our analysis:
 
 **California Wildfires (2013-2020)**
-- The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude and longitude. Several values are included for each fire, some of which are acres burned, fuel type and if the fire was considered a major fire event. 
+- The dataset contains the list of wildfires that have occurred in California between 2013-2020. The dataset includes the location of the fire, including county and latitude, and longitude. Several values are included for each fire, some of which are acres burned, fuel type, and if the fire was considered a major fire event. 
 
 **California Housing Data**
-- The California housing data include location, population size of the block, house value and median income.
+- The California housing data include location, the population size of the block, house value, and median income.
 
 **California Environmental Conditions Dataset**
-- The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
+- The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity, and wind speed. 
 
 **California - Electricity Consumption by County Dataset**
 - Historical energy consumption data by county. 
 
 ### Questions We Hope to Answer:
 
-1) What factors contribute to certain California fires becoming a major fire event? 
-2) Which factor(s) are main contributors to increasing the risk of a California fire becoming a major fire event?
+1) What factors contribute to certain California fires becoming a "major fire event"? 
+2) Which factor(s) are the main contributors to increasing the risk of a California fire becoming a major fire event?
 3) How does proximity to major fire events impact housing prices over time?
-4) Is there a relationship between number of fires (or acres burned) and energy consumption? 
+4) Is there a relationship between the number of fires (or acres burned) and energy consumption? 
 5) What weather patterns increase the risk for a major fire event?
 
 ### Data Exploration Phase:
@@ -48,7 +48,7 @@ We curated the four following data sets from Kaggle for our analysis:
 - We began with the California Wildfires (2013-2020) dataset
   - Identify columns of interest 
   - Drop columns 
-  - Missing data, Resources columns (personnel units, air-tankers, engines, etc.) inaccurate and inconsistent, cross referencing CalFire website
+  - Missing data, Resources columns (personnel units, air-tankers, engines, etc.) inaccurate and inconsistent, cross-referencing CalFire website
   - Decision to drop columns with missing data 
 
 - California Housing Dataset
@@ -79,13 +79,13 @@ During the analysis phase, we focused on:
 <br>As we have discussed, a lot of what we'll be doing will be in Python. To hold our code, we will be taking advantage of Jupyter Notebooks for our IDE and Github for our shared repository.
 
 **Initial Data Cleaning**
-<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense on the individual variables being used, to spot outliers and determine significance in some of the data. 
+<br>To thoroughly edit and manipulate the data, the Python Pandas library will be used here. To aid with any data cleaning, other libraries such as Matplotlib and hvplot may be required to gain a better sense of the individual variables being used, to spot outliers, and determine significance in some of the data. 
 
 **Machine Learning Model**
 <br>With the likelihood of a major fire event as a binary classifier and our dependent variable, the tools we use should reflect this. Machine learning models such as logistic regression can be deemed useful for our machine learning classification. Predicting the likelihood of a major event or not based on our variables is an important part of answering the question we are trying to solve. For this project, we will use TensorFlow, a Python library, to create a deep learning neural network based on a logistic regression model to determine whether a wildfire is a major wildfire or not.
 
 **Data Storage**
-<br>In order to provide the machine learning models with the data needed, our database is stored in pgAdmin using Amazon Web Services for easy shareable access. Additionally, our final database that the machine learning model will pull from an S3 bucket hosted through AWS as well. Thus allowing for streamlined and cloud based access for our database and all necessary datasets.
+<br> To provide the machine learning models with the data needed, our database is stored in pgAdmin using Amazon Web Services for easy shareable access. Additionally, our final database that the machine learning model will pull from an S3 bucket hosted through AWS as well. Thus allowing for streamlined and cloud-based access for our database and all necessary datasets.
 
 **Dashboard Analysis**
 <br>Visualization tools such as Tableau will be of great use for our analysis. The ability to visualize the data in a geographic format with many variables at play will be extremely useful. 
