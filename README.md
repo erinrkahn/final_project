@@ -121,7 +121,7 @@ The purpose of this analysis is to analyze which factors from previous Californi
 - Average income of County
 - Average house value of County
 #### Characteristics of Wildfire
-- Latitude and longitude coordinates where fire started
+- Latitude and longitude coordinates where the fire started
 - Number of acres fire burned
 - Cal Fire Incident, meaning did Cal Fire get involved in handling the fire or not
 #### Electricity
@@ -133,7 +133,7 @@ Historically, high wind speed and dry heat contribute to the ignition and exacer
 
 Additionally, inputting Counties where previous wildfires have started and occurred will help predict whether the wildfire was major or not. Also, inputting the proximity of these Counties to the ocean will aid in this prediction as wildfires are typically inland.
 
-Demographics of a region may also help in predicting wildfire outcomes such as the population of a County, median income of a County, and the median house value of a County.
+Demographics of a region may also help in predicting wildfire outcomes such as the population of a County, the median income of a County, and the median house value of a County.
 
 Likewise, characteristics of the wildfire itself like the number of acres the fire burned and coordinates of where it started may help determine the possibility of a wildfire becoming a major incident or not.
 
@@ -157,7 +157,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
 ### Code for Machine Learning Model:
 
 - **The Data Preprocessing Stage**
-  - In order to perform the machine learning model, we needed to preprocess all four datasets and merge them together by County and Year.
+  - To perform the machine learning model, we needed to preprocess all four datasets and merge them by County and Year.
   - For all four data sets:
     - Unnecessary columns were dropped.
     - Data types were changed accordingly if the column data did not match the data type.
@@ -173,7 +173,7 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
  
 - **Splitting into Training and Testing Sets**
   -  For the model, we decided to use a traditional split of inputting **75%** of the data into the training set and **25%** of the data into the testing set.
-  -  This split was also possible due to the fact that the compiled, merged data set is very large, and thus there would be plenty of data to be tested on for a 25% split.
+  -  This split was also possible since the compiled, merged data set is very large, and thus there would be plenty of data to be tested on for a 25% split.
 
 - **Model Choice**
   - As previously mentioned, we decided upon using a deep learning neural network because it would be able to figure out complex relationships between seemingly disparate variables that a simpler logistic regression model may not be able to perform.
@@ -190,18 +190,18 @@ Ultimately, knowing these factors will give insight as to which California (CA) 
   - The training and testing input features were then fitted and scaled using StandardScaler().
   - The deep learning neural network's input layer was the same size as the number of different features inputted into the model and it contained three hidden layers with three nodes, five nodes, and five nodes, respectively.
     - The activation function for all three hidden layers was relu, as that activation function performed the best in terms of accuracy.
-    - When more hidden layers were added while creating and testing the model, the accuracy of the model actually decreased, so three hidden layers was the best.
+    - When more hidden layers were added while creating and testing the model, the accuracy of the model actually decreased, so three hidden layers were the best.
   - The output layer contained one unit and its activation function was sigmoid because y was a binary output: either the fire was a major incident, "True", or was not, "False". 
   - The model was trained on 20 epochs as to 1) not be overfitted and 2) when trained on more epochs like 100 epochs, the model's accuracy did not increase.
 
 - **Current Accuracy Score**
-  - The model's current accuracy score is **79.19%** and its loss is **0.4720** (when the model was re-ran, loss was about 0.45).
+  - The model's current accuracy score is **79.19%** and its loss is **0.4720** (when the model was re-run, the loss was about 0.45).
   - This accuracy score was the highest accuracy score that we could achieve from the model without overfitting the model.
   - Since the accuracy score is relatively high, it can be concluded that this model is pretty good at determining whether a wildfire in California is a major incident or not, and thus can help in determining which counties, and more specifically, which areas within counties will need more resources to fight wildfires in preparation for wildfire season.
-    - However, since the loss is not great, the parameters inputted into this model should be adjusted (e.g. taking away certain parameters that don't have a strong relationship to major wildfire incidents, adding additional parameters that do, or both) before implementing this model in a real world setting as well as increasing the accuracy to be 90%+ since we want resource allocation to be the most effective since resources to prevent wildfires are expensive.
+    - However, since the loss is not great, the parameters inputted into this model should be adjusted (e.g. taking away certain parameters that don't have a strong relationship to major wildfire incidents, adding additional parameters that do, or both) before implementing this model in a real-world setting as well as increasing the accuracy to be 90%+ since we want resource allocation to be the most effective since resources to prevent wildfires are expensive.
 
 - **Future Statistical Analysis**
-  - To further investigate how well our model performs, the **sensitivity**, true positive rate, and the **specificity**, true negative rate, can be calculated from the model's results.
+  - To further investigate how well our model performs, the **sensitivity**, true positive rate, and the **specificity**, true negative rate can be calculated from the model's results.
     - Sensitivity would show the percentage of results that were predicted positive that were actually positive.
     - Specificity would show the proportion of negative results of all the negative results that were correctly identified.
   - Both measures are ultimately important to know in order to ensure that resources to prevent wildfires are sent to the proper, vulnerable locations based on the model's predictions. 
