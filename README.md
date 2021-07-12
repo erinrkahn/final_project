@@ -2,7 +2,7 @@
 A shared repository for our final project
 
 ## Presentation
- 
+
 <p align="center">
 <img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
 </p>
