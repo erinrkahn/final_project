@@ -2,7 +2,7 @@
 A shared repository for our final project
 
 ## Presentation
- 
+  
 <p align="center">
 <img src="https://github.com/erinrkahn/project_one/blob/main/Images/Wildfires.jpg" width="700">
 </p>
@@ -29,7 +29,7 @@ All datasets are from Kaggle
 
 **California Environmental Conditions Dataset**
 - The California Environmental Conditions dataset was pulled from the CIMIS weather stations and includes weather information organized by region. Data includes precipitation, air temperature relative humidity and wind speed. 
-
+ 
 **California - Electricity Consumption by County Dataset**
 - Historical energy consumption data by county. 
 
